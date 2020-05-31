@@ -14,10 +14,15 @@ public class Fractional {
 		// student code
 	}
 	
-	// Not a Number (NaN) 
-	boolean isNaN() {
-		// student code
-	}
+	    // Not a Number (NaN)
+   	 boolean isNaN() {
+        // student code
+        if(nominator == 0 && denominator == 0){
+            return true;
+        	}else{
+            		return false;
+       		}
+   	 }
 
 	boolean isInfinity() {
 		// student code
