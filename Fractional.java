@@ -34,7 +34,6 @@ public class Fractional {
 	
 	int sign() {
 		// student code
-		reutn false;
 	}
 
 	double getValue() {
